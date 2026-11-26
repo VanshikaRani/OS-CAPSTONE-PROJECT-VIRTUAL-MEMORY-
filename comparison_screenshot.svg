@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#0b1220"/>
+  <rect x="48" y="42" width="1104" height="676" rx="24" fill="#111c2e" stroke="#26364d" stroke-width="2"/>
+  <text x="90" y="112" fill="#edf4ff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">VIRTUAL MEMORY LAB</text>
+  <text x="90" y="151" fill="#9fb1c9" font-family="Segoe UI,Arial,sans-serif" font-size="18">Lab 3 sample • 3 frames • 10 page references</text>
+  <rect x="90" y="184" width="1020" height="72" rx="12" fill="#17263b"/>
+  <text x="116" y="228" fill="#cbd8e9" font-family="Consolas,monospace" font-size="17">7, 0, 1, 2, 0, 3, 0, 4, 2, 3</text>
+  <text x="90" y="316" fill="#edf4ff" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="600">Algorithm comparison</text>
+  <text x="116" y="370" fill="#91a5bf" font-family="Segoe UI,Arial,sans-serif" font-size="16">POLICY</text>
+  <text x="410" y="370" fill="#91a5bf" font-family="Segoe UI,Arial,sans-serif" font-size="16">PAGE FAULTS</text>
+  <text x="650" y="370" fill="#91a5bf" font-family="Segoe UI,Arial,sans-serif" font-size="16">HITS</text>
+  <text x="820" y="370" fill="#91a5bf" font-family="Segoe UI,Arial,sans-serif" font-size="16">FAULT RATE</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="20">
+    <rect x="90" y="390" width="1020" height="70" rx="10" fill="#17263b"/><text x="116" y="434" fill="#e8effa">FIFO</text><text x="436" y="434" fill="#e8effa">9</text><text x="674" y="434" fill="#e8effa">1</text><text x="844" y="434" fill="#e8effa">90.0%</text>
+    <rect x="90" y="474" width="1020" height="70" rx="10" fill="#17263b"/><text x="116" y="518" fill="#e8effa">LRU</text><text x="436" y="518" fill="#e8effa">8</text><text x="674" y="518" fill="#e8effa">2</text><text x="844" y="518" fill="#e8effa">80.0%</text>
+    <rect x="90" y="558" width="1020" height="70" rx="10" fill="#163a39" stroke="#2ed0a0" stroke-width="2"/><text x="116" y="602" fill="#b9ffeb">OPTIMAL</text><text x="436" y="602" fill="#b9ffeb">6</text><text x="674" y="602" fill="#b9ffeb">4</text><text x="844" y="602" fill="#b9ffeb">60.0%</text>
+  </g>
+  <text x="90" y="675" fill="#9fb1c9" font-family="Segoe UI,Arial,sans-serif" font-size="16">Lowest fault count on this sample: Optimal • theoretical benchmark</text>
+</svg>

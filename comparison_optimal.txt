@@ -1,0 +1,21 @@
+Virtual Memory Lab — OPTIMAL
+Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3
+Frames: 3
+
+Step | Page | F1 | F2 | F3 | Result | Evicted
+-------------------------------------------------------
+   1 |    7 |  7 |  - |  - | FAULT | -
+   2 |    0 |  7 |  0 |  - | FAULT | -
+   3 |    1 |  7 |  0 |  1 | FAULT | -
+   4 |    2 |  2 |  0 |  1 | FAULT | 7
+   5 |    0 |  2 |  0 |  1 | HIT   | -
+   6 |    3 |  2 |  0 |  3 | FAULT | 1
+   7 |    0 |  2 |  0 |  3 | HIT   | -
+   8 |    4 |  2 |  4 |  3 | FAULT | 0
+   9 |    2 |  2 |  4 |  3 | HIT   | -
+  10 |    3 |  2 |  4 |  3 | HIT   | -
+
+Page faults: 6
+Hits: 4
+Fault rate: 60.0%
+Hit rate: 40.0%

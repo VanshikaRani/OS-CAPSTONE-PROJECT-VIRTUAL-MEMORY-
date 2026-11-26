@@ -1,0 +1,42 @@
+
+=== VIRTUAL MEMORY LAB ===
+Study paging, replacement algorithms and working-set pressure.
+
+1. Simulate page replacement
+2. Compare FIFO, LRU and Optimal
+3. Analyze working set / thrashing
+4. Load sample dataset
+5. Help
+6. Graph faults across frame counts
+0. Exit
+Select: Loaded sample: [7, 0, 1, 2, 0, 3, 0, 4, 2, 3] with 3 frames.
+
+Algorithm  Faults  Hits  Fault rate
+---------  ------  ----  ----------
+FIFO            9     1      90.0%
+LRU             8     2      80.0%
+OPTIMAL         6     4      60.0%
+
+Lowest fault count for this dataset: OPTIMAL (6 faults).
+Saved comparison.csv, comparison_graph.svg, and per-algorithm traces.
+1. Simulate page replacement
+2. Compare FIFO, LRU and Optimal
+3. Analyze working set / thrashing
+4. Load sample dataset
+5. Help
+6. Graph faults across frame counts
+0. Exit
+Select: Page references, comma-separated [7,0,1,2,0,3,0,4,2,3]: Largest frame count to graph (1-64) [6]: Frames | FIFO faults | LRU faults | Optimal faults
+     1 |          10 |         10 |             10
+     2 |           9 |          9 |              7
+     3 |           9 |          8 |              6
+     4 |           6 |          6 |              6
+Saved outputs\frame_sensitivity.svg
+1. Simulate page replacement
+2. Compare FIFO, LRU and Optimal
+3. Analyze working set / thrashing
+4. Load sample dataset
+5. Help
+6. Graph faults across frame counts
+0. Exit
+Select: Goodbye.

@@ -1,0 +1,6 @@
+{
+  "title": "Lab 3 page replacement example",
+  "reference": [7, 0, 1, 2, 0, 3, 0, 4, 2, 3],
+  "frames": 3,
+  "working_set_window": 4
+}

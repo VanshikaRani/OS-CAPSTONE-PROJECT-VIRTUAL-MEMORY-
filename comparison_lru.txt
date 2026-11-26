@@ -1,0 +1,21 @@
+Virtual Memory Lab — LRU
+Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3
+Frames: 3
+
+Step | Page | F1 | F2 | F3 | Result | Evicted
+-------------------------------------------------------
+   1 |    7 |  7 |  - |  - | FAULT | -
+   2 |    0 |  7 |  0 |  - | FAULT | -
+   3 |    1 |  7 |  0 |  1 | FAULT | -
+   4 |    2 |  2 |  0 |  1 | FAULT | 7
+   5 |    0 |  2 |  0 |  1 | HIT   | -
+   6 |    3 |  2 |  0 |  3 | FAULT | 1
+   7 |    0 |  2 |  0 |  3 | HIT   | -
+   8 |    4 |  4 |  0 |  3 | FAULT | 2
+   9 |    2 |  4 |  0 |  2 | FAULT | 3
+  10 |    3 |  4 |  3 |  2 | FAULT | 0
+
+Page faults: 8
+Hits: 2
+Fault rate: 80.0%
+Hit rate: 20.0%

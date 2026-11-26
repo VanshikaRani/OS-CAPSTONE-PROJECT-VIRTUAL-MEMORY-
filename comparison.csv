@@ -1,0 +1,4 @@
+algorithm,frames,references,faults,hits,fault_rate_percent
+FIFO,3,10,9,1,90.00
+LRU,3,10,8,2,80.00
+OPTIMAL,3,10,6,4,60.00
